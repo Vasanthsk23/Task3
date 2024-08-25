@@ -11,7 +11,7 @@ public class Library {
   }
 
     public Library(){
-        this.books = new Book[5];
+        this.books = new Book[3];
     }
 
     public void addBook(Book book){

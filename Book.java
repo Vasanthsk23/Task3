@@ -5,10 +5,11 @@ public class Book {
     private String author;
     private boolean isAvailable;
 
+//    Empty constructor
     public Book(){
 
     }
-
+//    Parameterized Constructor
     public Book(String bookID, String title, String author, boolean isAvailable){
         this.bookID = bookID;
         this.title = title;
@@ -17,6 +18,7 @@ public class Book {
 
     }
 
+//    Getter Method
     public String getBookID() {
         return this.bookID;
     }
@@ -33,10 +35,8 @@ public class Book {
         return this.isAvailable;
     }
 
-    public boolean isAvailable() {
-        return this.isAvailable;
-    }
 
+//    Setter Method
     public void setBookID(String bookID){
         this.bookID = bookID;
     }
